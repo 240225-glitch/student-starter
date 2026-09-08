@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ACIS Club Compass</title>
+
+  <!-- LESSON 1: CSS connects here. Keep this file name exactly the same. -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="hero">
+    <p class="eyebrow">ACIS CLUB COMPASS</p>
+    <h1>Find a club where you can belong.</h1>
+    <p class="lede">Choose your interests. JavaScript will send your answers to Python, and Python will return your top club matches.</p>
+  </header>
+
+  <main class="app-shell">
+    <form id="matcherForm" class="card">
+      <h2>About you</h2>
+
+      <label>First name
+        <input id="name" name="name" placeholder="e.g. Mina" maxlength="30" required>
+      </label>
+
+      <label>Grade
+        <select id="grade" name="grade">
+          <option value="7">Grade 7</option>
+          <option value="8">Grade 8</option>
+          <option value="9">Grade 9</option>
+          <option value="10">Grade 10</option>
+          <option value="11">Grade 11</option>
+          <option value="12">Grade 12</option>
+        </select>
+      </label>
+
+      <label>Grade group
+        <select id="gradeGroup" name="gradeGroup">
+          <option>Middle School</option>
+          <option>High School</option>
+        </select>
+      </label>
+
+      <label>House
+        <select id="house" name="house">
+          <option>Aqua</option>
+          <option>Flames</option>
+          <option>Grove</option>
+          <option>Iron</option>
+          <option>Terra</option>
+        </select>
+      </label>
+
+      <label>Best club day
+        <select id="day" name="day">
+          <option>Monday</option>
+          <option>Tuesday</option>
+          <option>Wednesday</option>
+          <option>Thursday</option>
+          <option>Friday</option>
+        </select>
+      </label>
+
+      <label>I like to…
+        <select id="style" name="style">
+          <option value="build">build and solve</option>
+          <option value="create">create and design</option>
+          <option value="perform">perform and speak</option>
+          <option value="compete">compete and train</option>
+          <option value="help">help and lead</option>
+          <option value="explore">explore and learn</option>
+        </select>
+      </label>
+
+      <h2>Choose at least two interests</h2>
+      <div id="interestGrid" class="interest-grid"></div>
+
+      <p id="formMessage" class="message" role="alert"></p>
+      <button type="submit" class="primary-button">Show my top 3 matches</button>
+    </form>
+
+    <section id="results" class="card results" hidden>
+      <h2 id="resultTitle">Your matches</h2>
+      <p id="resultSummary"></p>
+      <div id="resultCards" class="result-grid"></div>
+    </section>
+  </main>
+
+  <!-- LESSON 2: JavaScript connects here. Keep this just before </body>. -->
+  <script src="app.js"></script>
+</body>
+</html>

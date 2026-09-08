@@ -1,0 +1,85 @@
+/* LESSON 1 STARTER: make the page readable first. */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f6f7fb;
+  color: #172033;
+}
+
+/* Students complete these chunks during the CSS lessons. */
+.hero {
+  padding: 32px;
+  background: white;
+}
+
+.app-shell {
+  width: min(1000px, 92vw);
+  margin: 24px auto;
+}
+
+.card {
+  background: white;
+  padding: 24px;
+  border-radius: 18px;
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin: 14px 0;
+  font-weight: bold;
+}
+
+input, select, button {
+  width: 100%;
+  padding: 12px;
+  margin-top: 6px;
+  font: inherit;
+}
+
+.interest-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.interest {
+  border: 2px solid #ccd3e0;
+  border-radius: 999px;
+  padding: 9px 12px;
+  background: white;
+}
+
+.interest input {
+  width: auto;
+  margin-right: 6px;
+}
+
+.primary-button {
+  background: #4f46e5;
+  color: white;
+  border: 0;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.result-grid {
+  display: grid;
+  gap: 14px;
+}
+
+.result-card {
+  border-left: 8px solid #4f46e5;
+  padding: 16px;
+  background: #f8fafc;
+  border-radius: 14px;
+}
+
+.message {
+  color: #b42318;
+  font-weight: bold;
+}

@@ -1,0 +1,290 @@
+[
+  {
+    "id": "robotics",
+    "name": "Robotics Lab",
+    "symbol": "⚙",
+    "color": "#7C3AED",
+    "groups": [
+      "Middle School",
+      "High School"
+    ],
+    "interests": [
+      "technology",
+      "engineering",
+      "problem-solving"
+    ],
+    "styles": [
+      "build",
+      "explore"
+    ],
+    "days": [
+      "Tuesday",
+      "Thursday"
+    ],
+    "description": "Design, build and test machines that solve practical challenges."
+  },
+  {
+    "id": "coding",
+    "name": "Code Creators",
+    "symbol": "</>",
+    "color": "#0EA5E9",
+    "groups": [
+      "Middle School",
+      "High School"
+    ],
+    "interests": [
+      "technology",
+      "games",
+      "problem-solving"
+    ],
+    "styles": [
+      "build",
+      "explore"
+    ],
+    "days": [
+      "Monday",
+      "Wednesday"
+    ],
+    "description": "Create small apps, games and digital tools with supportive teammates."
+  },
+  {
+    "id": "digital-art",
+    "name": "Digital Art Studio",
+    "symbol": "✦",
+    "color": "#EC4899",
+    "groups": [
+      "Middle School",
+      "High School"
+    ],
+    "interests": [
+      "art",
+      "design",
+      "photography"
+    ],
+    "styles": [
+      "create",
+      "explore"
+    ],
+    "days": [
+      "Wednesday",
+      "Friday"
+    ],
+    "description": "Illustrate, edit images and develop a personal visual style."
+  },
+  {
+    "id": "photography",
+    "name": "Chiang Mai Photo Walk",
+    "symbol": "◉",
+    "color": "#F59E0B",
+    "groups": [
+      "Middle School",
+      "High School"
+    ],
+    "interests": [
+      "photography",
+      "nature",
+      "culture"
+    ],
+    "styles": [
+      "create",
+      "explore"
+    ],
+    "days": [
+      "Thursday",
+      "Friday"
+    ],
+    "description": "Tell respectful local stories through composition, light and captions."
+  },
+  {
+    "id": "music",
+    "name": "Music Ensemble",
+    "symbol": "♫",
+    "color": "#14B8A6",
+    "groups": [
+      "Middle School",
+      "High School"
+    ],
+    "interests": [
+      "music",
+      "performance",
+      "culture"
+    ],
+    "styles": [
+      "perform",
+      "create"
+    ],
+    "days": [
+      "Tuesday",
+      "Friday"
+    ],
+    "description": "Rehearse and perform music in a welcoming mixed-skill ensemble."
+  },
+  {
+    "id": "drama",
+    "name": "Drama Collective",
+    "symbol": "◇",
+    "color": "#F43F5E",
+    "groups": [
+      "Middle School",
+      "High School"
+    ],
+    "interests": [
+      "drama",
+      "performance",
+      "storytelling"
+    ],
+    "styles": [
+      "perform",
+      "create"
+    ],
+    "days": [
+      "Monday",
+      "Thursday"
+    ],
+    "description": "Build confidence through acting, improvisation and stagecraft."
+  },
+  {
+    "id": "basketball",
+    "name": "Basketball Club",
+    "symbol": "●",
+    "color": "#F97316",
+    "groups": [
+      "Middle School",
+      "High School"
+    ],
+    "interests": [
+      "sports",
+      "fitness",
+      "teamwork"
+    ],
+    "styles": [
+      "compete",
+      "explore"
+    ],
+    "days": [
+      "Tuesday",
+      "Thursday"
+    ],
+    "description": "Improve skills, fitness and team communication through structured play."
+  },
+  {
+    "id": "football",
+    "name": "Football Club",
+    "symbol": "⬡",
+    "color": "#22C55E",
+    "groups": [
+      "Middle School",
+      "High School"
+    ],
+    "interests": [
+      "sports",
+      "fitness",
+      "teamwork"
+    ],
+    "styles": [
+      "compete",
+      "explore"
+    ],
+    "days": [
+      "Monday",
+      "Wednesday"
+    ],
+    "description": "Train technique and teamwork in inclusive small-sided games."
+  },
+  {
+    "id": "eco",
+    "name": "Eco Action Team",
+    "symbol": "❧",
+    "color": "#16A34A",
+    "groups": [
+      "Middle School",
+      "High School"
+    ],
+    "interests": [
+      "nature",
+      "service",
+      "science"
+    ],
+    "styles": [
+      "help",
+      "build"
+    ],
+    "days": [
+      "Wednesday",
+      "Friday"
+    ],
+    "description": "Plan measurable projects that make the campus greener and healthier."
+  },
+  {
+    "id": "service",
+    "name": "Community Service Crew",
+    "symbol": "♥",
+    "color": "#DB2777",
+    "groups": [
+      "Middle School",
+      "High School"
+    ],
+    "interests": [
+      "service",
+      "leadership",
+      "teamwork"
+    ],
+    "styles": [
+      "help",
+      "build"
+    ],
+    "days": [
+      "Tuesday",
+      "Friday"
+    ],
+    "description": "Work with others on practical, respectful service projects."
+  },
+  {
+    "id": "debate",
+    "name": "Debate & Public Speaking",
+    "symbol": "↗",
+    "color": "#4F46E5",
+    "groups": [
+      "Middle School",
+      "High School"
+    ],
+    "interests": [
+      "debate",
+      "leadership",
+      "storytelling"
+    ],
+    "styles": [
+      "perform",
+      "explore"
+    ],
+    "days": [
+      "Monday",
+      "Thursday"
+    ],
+    "description": "Research ideas, build evidence and speak with clarity and respect."
+  },
+  {
+    "id": "culture",
+    "name": "Language & Culture Exchange",
+    "symbol": "∞",
+    "color": "#0891B2",
+    "groups": [
+      "Middle School",
+      "High School"
+    ],
+    "interests": [
+      "languages",
+      "culture",
+      "service"
+    ],
+    "styles": [
+      "help",
+      "explore"
+    ],
+    "days": [
+      "Wednesday",
+      "Friday"
+    ],
+    "description": "Share languages and traditions through student-led activities."
+  }
+]

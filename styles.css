@@ -41,6 +41,21 @@ input, select, button {
   font: inherit;
 }
 
+:focus-visible {
+  outline: 3px solid #2563eb;
+  outline-offset: 2px;
+}
+
+fieldset {
+  border: 0;
+  padding: 0;
+  margin: 20px 0 0;
+}
+
+legend {
+  font-weight: bold;
+}
+
 .interest-grid {
   display: flex;
   flex-wrap: wrap;

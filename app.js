@@ -55,14 +55,22 @@ form.addEventListener("submit", async (event) => {
   console.log(profile);
 
   // Send the profile to matcher.py and wait for Python's answer.
-  const response = await fetch("/api/match", {
-    method: "POST",
-    headers: { "Content-Type": "application/json" },
-    body: JSON.stringify(profile)
-  });
+  try {
+    const response = await fetch("/api/match", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(profile)
+    });
 
-  const result = await response.json();
-  showResults(result);
+    if (!response.ok) {
+      throw new Error(`Server error (${response.status})`);
+    }
+
+    const result = await response.json();
+    showResults(result);
+  } catch (error) {
+    message.textContent = "Sorry, the matcher is not reachable. Start it with: python matcher.py";
+  }
 });
 
 function showResults(result) {
@@ -83,6 +91,7 @@ function showResults(result) {
   }
 
   results.hidden = false;
+  resultTitle.focus();
 }
 
 function buildCard(name, description, score, reasons) {

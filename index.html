@@ -72,15 +72,17 @@
         </select>
       </label>
 
-      <h2>Choose at least two interests</h2>
-      <div id="interestGrid" class="interest-grid"></div>
+      <fieldset>
+        <legend>Choose at least two interests</legend>
+        <div id="interestGrid" class="interest-grid"></div>
+      </fieldset>
 
       <p id="formMessage" class="message" role="alert"></p>
       <button type="submit" class="primary-button">Show my top 3 matches</button>
     </form>
 
     <section id="results" class="card results" hidden>
-      <h2 id="resultTitle">Your matches</h2>
+      <h2 id="resultTitle" tabindex="-1">Your matches</h2>
       <p id="resultSummary"></p>
       <div id="resultCards" class="result-grid"></div>
     </section>

@@ -29,8 +29,9 @@ A student fills in a short form (name, grade, house, preferred day, learning sty
 | `app.js` | Reads form data, sends to Python, renders result cards |
 | `matcher.py` | Python scoring algorithm + HTTP server |
 | `clubs.json` | 12 fictional club records with structured data |
-| `test_report.md` | Test evidence from Lessons 12 and 14 |
-| `portfolio.md` | Full evidence portfolio for formative assessment |
+| `test_report.md` | Test evidence from Lessons 7, 12 and 14 |
+| `portfolio.md` | Full evidence portfolio for the formative assessment |
+| `technical_explanation.md` | Final summative technical explanation (code decisions, live demo, key fix) |
 
 ## Algorithm
 
